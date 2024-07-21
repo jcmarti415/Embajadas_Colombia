@@ -1,5 +1,5 @@
 ol.proj.proj4.register(proj4);
-ol.proj.get("EPSG:4326").setExtent([-132.100804, -65.199867, 151.399177, 90.132599]);
+ol.proj.get("EPSG:4326").setExtent([-125.446303, -58.636523, 158.053679, 96.695943]);
 var wms_layers = [];
 
 var format_World_Countries_Generalized_0 = new ol.format.GeoJSON();
@@ -14,7 +14,7 @@ var lyr_World_Countries_Generalized_0 = new ol.layer.Vector({
                 source:jsonSource_World_Countries_Generalized_0, 
                 style: style_World_Countries_Generalized_0,
                 popuplayertitle: "World_Countries_Generalized",
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/World_Countries_Generalized_0.png" /> World_Countries_Generalized'
             });
 var format_NodeCarreraescogidoporDuque_1 = new ol.format.GeoJSON();
